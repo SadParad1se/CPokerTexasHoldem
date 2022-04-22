@@ -1,8 +1,5 @@
-#ifndef CPOKER_POKER_H
-#define CPOKER_POKER_H
-
-#endif //CPOKER_POKER_H
-
+#ifndef _HELPERS_H_INCLUDED
+#define _HELPERS_H_INCLUDED
 
 typedef enum {spade = 1, heart = 2, diamond = 3, club = 4} colors;
 typedef enum {two = 2, three = 3, four = 4, five = 5, six = 6, seven = 7, eight = 8, nine = 9, ten = 10, jack = 11, queen = 12, king = 13, ace = 14} values;
@@ -66,3 +63,5 @@ float isHighHand(int playerId);
 float checkCombinations(int playerId);
 void checkWinner();
 void rewardWinner(int playerId);
+
+#endif //_HELPERS_H_INCLUDED
